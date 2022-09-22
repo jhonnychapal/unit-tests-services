@@ -2,7 +2,7 @@ name: CI for Angular
 on: push
 jobs:
   unit-test:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
       - name: Clone
         uses: actions/checkout@v2
